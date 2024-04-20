@@ -7,18 +7,15 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <title>Sandyq</title>
 </head>
 <body>
-    <header class="header">
+    <header>
         <div class="container">
-            <button class="header_burger-btn">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <a href="main.html"><img src="img/logo/logo-sandyk.svg" alt="logo_sandyq" class="header_logo"></a>
+            <a href="#"><img src="img/logo/logo-sandyk.svg" alt="logo_sandyq" class="header_logo"></a>
+            <input type="checkbox" id="burger">
+            <label for="burger"></label>
             <nav>
                 <ul>
                     <li><a href="interior.html">О ресторане</a></li>
@@ -29,5 +26,110 @@
             </nav>
         </div>
     </header>
+    <section class="main_page">
+        <div class="container">
+            <div class="main_page_follow">
+                <div class="main_page_follow_text">Follow us</div>
+                <a href="https://instagram.com/sandyq_restaurant?igshid=YmMyMTA2M2Y="><img src="img/logo/insta-sandyk.svg" alt="insta-sandyk" class="main_page_follow_insta"></img></a>
+                <a href="#"><img src="img/logo/facebook-sandyk.svg" alt="facebook-sandyk" class="main_page_follow_facebook"></img></a>
+            </div>
+
+            <div class="main_page_booking">
+                <div class="main_page_booking_res_name">Sandyq restaurant</div>
+                <div class="main_page_booking_title">Традиции в наших <br>сердцах</div>
+                <a href="booking.html">
+                    <button class="main_page_booking_btn">Забронировать <br> столик</button>
+                </a>
+            </div>
+            <img src="img/main/slide-img-1.jpg" alt="slide-1" class="main_page_img">
+            <a href="#middle" class="main_page_down"><img src="img/logo/arrow_downward.svg" alt="arrow-down"></a>
+        </div>
+    </section>
+    <section class="middle" id="middle">
+        <div class="row middle_history">
+            <div class="col-md-6 middle_history_left">
+                <div class="middle_history_left_title">
+                    История
+                </div>
+                <div class="middle_history_left_subtitle">
+                    Интерьер погружает в традиции
+                </div>
+                <div class="middle_history_left_desc">
+                    Цель нашего ресторана с одноименным названием «Сандық» – показать
+                    вековые традиции как в приготовлении пищи, угощении яствами, в целом
+                    гостеприимства, так и презентовать уникальные предметы историко-
+                    культурного значения,изделия быта южно-казахстанского региона.
+                </div>
+                <a href="interior.html" class="middle_history_left_link">
+                    <span class="middle_history_left_link_text">
+                        Перейти
+                    </span>
+                    <img src="img/logo/arrow-to-bottom.svg" alt="arrow-to-bottom" class="middle_history_left_link_img">
+                </a>
+            </div>
+            <div class="col-md-6 middle_history_right">
+                <img src="img/main/dombyra.jpg" alt="dombyra" class="middle_history_right_dombyra">
+            </div>
+        </div>
+        <div class="row middle_kitchen">
+            <div class="col-md-6 middle_kitchen_left">
+                <img src="img/main/kazy-karta.jpg" alt="kazy-karta" class="middle_kitchen_left_kazy">
+            </div>
+            <div class="col-md-6 middle_kitchen_right">
+                <div class="middle_kitchen_right_title">
+                    Меню
+                </div>
+                <div class="middle_kitchen_right_subtitle">
+                    Авторская <br>
+                    аутентичная кухня                
+                </div>
+                <div class="middle_kitchen_right_desc">
+                    Брендирование национальной кухни, важный и своевременный шаг в эпоху
+                    нивелирования традиций, больших ассимиляционных процессов, в целом
+                    глобализации. Разработка старинных рецептур казахской кухни, бренды
+                    традиционной пищи, помогут восполнить образовавшуюся за многие годы
+                    лакуну в области исконных традиций.
+                </div>
+                <div class="middle_kitchen_right_wrapper">
+                    <div class="middle_kitchen_right_wrapper_author">
+                        <span class="middle_kitchen_right_wrapper_author_name">
+                            Айгерим Мусагажинова
+                        </span>
+                        <span class="middle_kitchen_right_wrapper_author_speciality">
+                            этнограф
+                        </span>
+                    </div>
+                    <img src="img/main/sign-author.svg" alt="sign-author" class="middle_kitchen_right_wrapper_sign">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row wrapper_footer">
+                <div class="col-md-6 wrapper_footer_left">
+                    <a href="main.html" class="wrapper_footer_left_logo"><img src="img/logo/logo-footer.svg" alt="logo-footer"></a>
+                    <span class="wrapper_footer_left_title">Традиции в наших сердцах</span>
+                </div>
+                <div class="col-md-3 wrapper_footer_middle">
+                    <a href="https://instagram.com/sandyq_restaurant?igshid=YmMyMTA2M2Y=" class="wrapper_footer_middle_insta">Instagram</a>
+                    <a href="interior.html" class="wrapper_footer_middle_interior">Интерьер</a>
+                    <a href="menu_page.html" class="wrapper_footer_middle_menu">Меню</a>
+                </div>
+                <div class="col-md-3 wrapper_footer_right">
+                    <a href="https://www.tripadvisor.com/Restaurant_Review-g665317-d21001017-Reviews-Sandyq-Shymkent_Turkistan_Region.html" class="wrapper_footer_right_trip">
+                        Tripadvisor
+                        <img src="img/logo/owl-item-footer.svg" alt="owl-item-footer">
+                    </a>
+                    <a href="contacts.html" class="wrapper_footer_right_contacts">Контакты</a>
+                </div>
+                <div class="row wrapper_footer_down">
+                    <div class="col-md-6 wrapper_footer_down_privacy">Copyright 2020 SANDYQ, Inc. Terms & Privacy</div>
+                    <div class="col-md-3 wrapper_footer_down_policy">Политика конфиденциальности</div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
