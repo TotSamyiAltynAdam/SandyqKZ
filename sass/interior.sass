@@ -1,0 +1,529 @@
+body
+    background: #000000 url('../img/contacts/contacts_background.jpg') no-repeat center
+    background-size: cover
+header
+    min-height: 136px
+    // border: 1px solid red
+    .container
+        padding: 22px 0px 
+        display: flex
+        nav
+            ul
+                display: flex
+                list-style: none
+                li
+                    margin-top: 15px
+                    margin-left: 160px
+                    &::after
+                        content: ''
+                        display: block
+                        height: 2px
+                        width: 0%
+                        transition: 0.5s all
+                        background-color: white 
+                    &:hover
+                        &::after
+                            width: 100% 
+                    a
+                        font-size: 20px
+                        color: white
+                        text-decoration: none
+                        font-family: 'Gilroy-Bold'
+.main_link
+    margin-top: 60px
+    .container
+        padding: 0
+    &_reffer
+        padding: 0
+        font-family: 'Gilroy-ExtraBold'
+        font-size: 12px
+        line-height: 15px
+        letter-spacing: 5px
+        text-transform: uppercase
+        color: #FBD784
+        text-decoration: none
+        &:hover
+            color: #FBD784
+        img
+            margin-right: 14px
+
+.middle
+    min-height: 1424px
+    margin-top: 116px
+    &_mission
+        background-color: black 
+        margin: 0
+        &_left
+            padding: 0
+            &_tradition
+                width: 100%
+                height: 760px
+                object-fit: cover
+        &_right
+            padding: 0 10%
+            margin-top: 90px
+            background: radial-gradient(50% 50% at 50% 50%, rgba(235, 235, 235, 0.20) 0%, rgba(196, 196, 196, 0) 100%);
+            &_title
+                font-family: 'Gilroy-ExtraBold'
+                font-size: 13px
+                line-height: 16px
+                letter-spacing: 4.33px
+                text-transform: uppercase
+                color: #FBD784
+                padding-left: 85px
+                position: relative
+                &::before
+                    content: ''
+                    position: absolute
+                    top: 6px
+                    left: 0
+                    width: 56px
+                    height: 1.5px
+                    background: #FBD784
+            &_subtitle
+                font-family: 'CharterC-Bold'
+                font-size: 50px
+                line-height: 56px
+                color: #FFFFFF
+                margin-top: 40px
+                display: flex
+            &_desc
+                font-family: 'Gilroy-Bold'
+                font-size: 14px
+                line-height: 26px
+                color: #FFFFFF
+                margin-top: 50px
+    &_interior
+        background-color: black
+        margin: 0
+        &_left
+            padding: 0 10%
+            margin-top: 180px
+            background: radial-gradient(50% 50% at 50% 50%, rgba(235, 235, 235, 0.20) 0%, rgba(196, 196, 196, 0) 100%);
+            &_title
+                font-family: 'Gilroy-ExtraBold'
+                font-size: 13px
+                line-height: 16px
+                letter-spacing: 4.33px
+                text-transform: uppercase
+                color: #FBD784
+                padding-left: 85px
+                position: relative
+                &::before
+                    content: ''
+                    position: absolute
+                    top: 6px
+                    left: 0
+                    width: 56px
+                    height: 1.5px
+                    background: #FBD784
+            &_subtitle
+                font-family: 'CharterC-Bold'
+                font-size: 50px
+                line-height: 56px
+                color: #FFFFFF
+                margin-top: 40px
+            &_desc
+                font-family: 'Gilroy-Bold'
+                font-size: 14px
+                line-height: 26px
+                color: #FFFFFF
+                margin-top: 50px
+        &_right
+            padding: 0
+            &_korpeshe
+                width: 100%
+                height: 760px
+                object-fit: cover
+.symbol
+    padding-top: 230px
+    padding-bottom: 200px
+    position: relative
+    &_bulbs
+        position: absolute
+        right: 0px
+        top: 50px
+        z-index: -1
+
+    &_title
+        font-family: 'Gilroy-ExtraBold'
+        font-size: 13px
+        line-height: 16px
+        letter-spacing: 4.5px
+        text-transform: uppercase
+        color: #fbd784
+        padding-left: 85px
+        position: relative
+        &::before
+            content: ''
+            position: absolute
+            top: 6px
+            left: 0
+            width: 56px
+            height: 1.5px
+            background: #FBD784
+    &_rows
+        margin-top: 60px
+        display: flex
+        justify-content: center
+        &_first
+            &_img
+                height: 494px
+                img
+                    height: 100%
+                    width: 80%
+            &_title
+                font-family: 'CharterC-Bold'
+                margin-top: 30px
+                font-size: 25px
+                line-height: 28px
+                color: #ffffff
+                display: inline-block
+            &_desc
+                font-family: 'Gilroy-Bold'
+                margin-top: 17px
+                line-height: 26px
+                color: #ffffff
+        &_second
+            &_img
+                height: 494px
+                img
+                    height: 100%
+                    width: 80%
+                   
+            &_title
+                font-family: 'CharterC-Bold'
+                margin-top: 30px
+                font-size: 25px
+                line-height: 28px
+                color: #ffffff
+                display: inline-block
+            &_desc
+                font-family: 'Gilroy-Bold'
+                margin-top: 17px
+                line-height: 26px
+                color: #ffffff
+        &_third
+            &_img
+                height: 494px
+                img
+                    height: 100%
+                    width: 80%
+                  
+            &_title
+                font-family: 'CharterC-Bold'
+                margin-top: 30px
+                font-size: 25px
+                line-height: 28px
+                color: #ffffff
+                display: inline-block
+            &_desc
+                font-family: 'Gilroy-Bold'
+                margin-top: 17px
+                line-height: 26px
+                color: #ffffff
+
+footer
+    min-height: 314px
+    padding-top: 90px
+    padding-bottom: 30px
+    .wrapper_footer
+        display: flex
+        &_left
+            display: flex
+            flex-direction: column
+            &_title
+                margin-top: 18px
+                font-size: 16px
+                line-height: 26px
+                color: #ffffff
+                font-family: 'Gilroy-Bold'
+        &_middle
+            display: flex
+            flex-direction: column
+            &_insta
+                font-family: 'Gilroy-Bold'
+                font-size: 20px
+                line-height: 26px
+                color: #fbd784
+                text-decoration: none
+            &_interior
+                margin-top: 20px
+                font-family: 'Gilroy-SemiBold'    
+                font-size: 15px
+                line-height: 26px
+                color: #ffffff
+                text-decoration: none
+            &_menu
+                margin-top: 15px
+                font-family: 'Gilroy-SemiBold'    
+                font-size: 15px
+                line-height: 26px
+                color: #ffffff
+                text-decoration: none
+        &_right        
+            display: flex
+            flex-direction: column
+            &_trip
+                font-family: 'Gilroy-Bold'
+                font-size: 20px
+                line-height: 26px
+                color: #fbd784
+                text-decoration: none
+                img
+                    margin-left: 10px
+            &_contacts
+                margin-top: 20px
+                line-height: 26px
+                font-size: 15px
+                text-decoration: none
+                color: #ffffff
+                font-family: 'Gilroy-SemiBold'
+        &_down
+            margin-top: 55px
+            display: flex
+            &_privacy
+                font-family: 'Gilroy-SemiBold'
+                font-size: 15px
+                line-height: 26px
+                color: #ffffff
+                opacity: 0.5
+                margin-right: 12px
+            &_policy
+                font-family: 'Gilroy-SemiBold'
+                font-size: 15px
+                line-height: 26px
+                color: #ffffff
+
+#burger, [for=burger]
+    display: none
+
+@media screen and (max-width: 820px)
+    header
+        .container
+            label
+                font-size: 40px
+                display: block
+                position: fixed
+                width: 80px
+                text-align: center
+                right: 20px
+                top: 30px
+                color: white
+                z-index: 2
+                &::before
+                   content: '≡'
+            nav
+                display: none
+                position: fixed
+                top: 0
+                right: 0
+                background: rgba(0,0,0,0.7)
+                width: 35%
+                height: 100%
+                ul
+                    margin-top: 100px
+                    flex-direction: column
+                    li
+                        margin-left: 50px
+                        margin-top: 30px
+                        &::after
+                            display: none
+            #burger
+                &:checked + label + nav
+                    display: block
+                &:checked + label::before
+                    content: 'x'
+                    color: #fbd784
+            a
+                .header_logo
+                    padding-left: 30px
+    .middle
+        min-height: 2242px
+        &_mission
+            &_left
+                &_tradition
+                    height: 95vh
+            &_right
+                padding: 190px 8%
+        &_interior
+            &_left
+                padding: 190px 8%
+            &_right
+                &_korpeshe
+                    height: 95vh
+    .symbol
+        padding-top: 220px
+        &_rows
+            margin-top: 150px
+            &_first
+                &_img
+                    height: 270px
+                    img
+                        width: 100%
+                &_title
+                    margin-top: 100px
+            &_second
+                &_img
+                    height: 270px
+                    img
+                        width: 100%
+                &_title
+                    margin-top: 100px
+            &_third
+                &_img
+                    height: 270px
+                    img
+                        width: 100%
+                &_title
+                    margin-top: 100px
+                
+@media screen and (max-width: 412px)
+    header
+        .container
+            nav
+                width: 100%
+                height: 100%
+                z-index: 1
+                ul
+                    padding: 0px
+                    li
+                        margin-left: 0px
+                        text-align: center
+            a
+                .header_logo
+                    padding-left: 20px
+                    width: 85px
+    .main_link
+        margin-top: 30px
+        &_reffer
+            margin-left: 10px
+            img
+                width: 70px
+    .middle
+        min-height: 1818px
+        margin-top: 60px
+        &_mission
+            display: flex
+            flex-direction: column-reverse
+            &_left
+                margin-top: 30px
+                &_tradition
+                    height: 45vh
+            &_right
+                padding: 0px 15px
+                margin-top: 10px
+                &_title
+                    font-size: 15px
+                &_subtitle
+                    margin-top: 50px
+                    font-size: 40px
+                    line-height: 46px
+                    text-align: center
+                &_desc
+                    margin-top: 35px
+                    font-size: 14px
+                    text-align: center
+        &_interior
+            padding-top: 75px
+            &_left
+                margin-top: 0
+                padding: 0 15px
+                &_title
+                    font-size: 15px
+                &_subtitle
+                    text-align: center
+                    margin-top: 50px
+                    font-size: 40px
+                    line-height: 46px
+                    align-self: center
+                &_desc
+                    margin-top: 35px
+                    font-size: 14px
+                    text-align: center
+            &_right
+                margin-top: 30px
+                &_korpeshe
+                    height: 45vh
+
+    .symbol
+        padding-top: 80px
+        padding-bottom: 0px
+        min-height: 1512px
+        &_bulbs
+            display: none
+        &_title
+            display: block
+            font-size: 15px
+            padding-left: 78px
+            letter-spacing: 4px
+            &::before
+                top: 22px
+        &_rows
+            margin-top: 60px
+            &_first
+                display: flex
+                flex-direction: column
+                &_img
+                    order: 3
+                    height: 200px
+                    img
+                        object-fit: cover
+                &_title
+                    order: 1
+                    margin-top: 20px
+                    text-align: center
+                &_desc
+                    order: 2
+                    margin-top: 21px
+                    margin-bottom: 30px
+                    font-size: 14px
+                    text-align: center
+            &_second
+                display: flex
+                flex-direction: column
+                &_img
+                    order: 3
+                    height: 200px
+                    img
+                        object-fit: cover
+                &_title
+                    order: 1
+                    margin-top: 70px
+                    text-align: center
+                &_desc
+                    order: 2
+                    margin-top: 21px
+                    margin-bottom: 30px
+                    font-size: 14px
+                    text-align: center
+            &_third
+                display: flex
+                flex-direction: column
+                &_img
+                    order: 3
+                    height: 200px
+                    img
+                        object-fit: cover
+                &_title
+                    order: 1
+                    margin-top: 70px
+                    text-align: center
+                &_desc
+                    order: 2
+                    margin-top: 21px
+                    margin-bottom: 30px
+                    font-size: 14px
+                    text-align: center
+    footer
+        .wrapper_footer
+            &_middle
+                margin-top: 27px
+            &_right
+                margin-top: 27px
+            &_down
+                flex-direction: column-reverse
+            &_privacy
+                font-size: 10px
+            &_policy
+                font-size: 10px

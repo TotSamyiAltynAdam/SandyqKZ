@@ -1,0 +1,505 @@
+@charset "UTF-8";
+header {
+  min-height: 136px;
+}
+
+header .container {
+  padding: 22px 0px;
+  display: flex;
+}
+
+header .container nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header .container nav ul li {
+  margin-top: 15px;
+  margin-left: 100px;
+}
+
+header .container nav ul li::after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 0%;
+  transition: 0.5s all;
+  background-color: black;
+}
+
+header .container nav ul li:hover::after {
+  width: 100%;
+}
+
+header .container nav ul li a {
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  font-family: 'Gilroy-Bold';
+}
+
+.center {
+  margin-top: 100px;
+}
+
+.center_sandyq {
+  width: 1000px;
+  height: 500px;
+  margin-left: 200px;
+}
+
+.center_title {
+  position: absolute;
+  left: 1000px;
+  top: 400px;
+  font-size: 60px;
+  font-family: 'CharterC-Bold';
+  color: #8B4513;
+  text-transform: uppercase;
+}
+
+.center_title::after {
+  content: '';
+  display: block;
+  height: 3.5px;
+  width: 190px;
+  background-color: #8B4513;
+}
+
+.salad {
+  margin-top: 150px;
+  padding-bottom: 100px;
+}
+
+.salad_title {
+  font-size: 40px;
+  font-family: 'CharterC-Bold';
+  color: #8B4513;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.salad_table {
+  margin: 0 auto;
+  margin-top: 50px;
+  max-width: 1000px;
+  font-family: 'CharterC-Bold';
+}
+
+.salad_table thead tr {
+  background-color: rgba(139, 69, 19, 0.3);
+}
+
+.salad_table tbody tr:nth-child(even) {
+  background-color: rgba(139, 69, 19, 0.3);
+}
+
+.salad .btn {
+  margin: 0 auto;
+  margin-top: 50px;
+  display: block;
+}
+
+.chai_chainek {
+  width: 1200px;
+  margin-left: 150px;
+}
+
+.tiskebasar {
+  margin-top: 150px;
+  padding-bottom: 100px;
+}
+
+.tiskebasar_title {
+  font-size: 40px;
+  font-family: 'CharterC-Bold';
+  color: #8B4513;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.tiskebasar_table {
+  margin: 0 auto;
+  margin-top: 50px;
+  max-width: 1000px;
+  font-family: 'CharterC-Bold';
+}
+
+.tiskebasar_table thead tr {
+  background-color: rgba(139, 69, 19, 0.3);
+}
+
+.tiskebasar_table tbody tr:nth-child(even) {
+  background-color: rgba(139, 69, 19, 0.3);
+}
+
+.tiskebasar .btn {
+  margin: 0 auto;
+  margin-top: 50px;
+  display: block;
+}
+
+.torsyk_legen {
+  width: 800px;
+  margin-left: 350px;
+}
+
+.suiyk_tagamdar {
+  margin-top: 150px;
+  padding-bottom: 100px;
+}
+
+.suiyk_tagamdar_title {
+  font-size: 40px;
+  font-family: 'CharterC-Bold';
+  color: #8B4513;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.suiyk_tagamdar_table {
+  margin: 0 auto;
+  margin-top: 50px;
+  max-width: 1000px;
+  font-family: 'CharterC-Bold';
+}
+
+.suiyk_tagamdar_table thead tr {
+  background-color: rgba(139, 69, 19, 0.3);
+}
+
+.suiyk_tagamdar_table tbody tr:nth-child(even) {
+  background-color: rgba(139, 69, 19, 0.3);
+}
+
+.suiyk_tagamdar .btn {
+  margin: 0 auto;
+  margin-top: 50px;
+  display: block;
+}
+
+.kazan_oshak {
+  width: 800px;
+  margin-left: 350px;
+}
+
+.negizgi_tagamdar {
+  margin-top: 150px;
+  padding-bottom: 100px;
+}
+
+.negizgi_tagamdar_title {
+  font-size: 40px;
+  font-family: 'CharterC-Bold';
+  color: #8B4513;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.negizgi_tagamdar_table {
+  margin: 0 auto;
+  margin-top: 50px;
+  max-width: 1000px;
+  font-family: 'CharterC-Bold';
+}
+
+.negizgi_tagamdar_table thead tr {
+  background-color: rgba(139, 69, 19, 0.3);
+}
+
+.negizgi_tagamdar_table tbody tr:nth-child(even) {
+  background-color: rgba(139, 69, 19, 0.3);
+}
+
+.negizgi_tagamdar .btn {
+  margin: 0 auto;
+  margin-top: 50px;
+  display: block;
+}
+
+.kymyz_kymyran {
+  width: 800px;
+  margin-left: 350px;
+}
+
+.susindar {
+  margin-top: 150px;
+  padding-bottom: 100px;
+}
+
+.susindar_title {
+  font-size: 40px;
+  font-family: 'CharterC-Bold';
+  color: #8B4513;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.susindar_table {
+  margin: 0 auto;
+  margin-top: 50px;
+  max-width: 1000px;
+  font-family: 'CharterC-Bold';
+}
+
+.susindar_table thead tr {
+  background-color: rgba(139, 69, 19, 0.3);
+}
+
+.susindar .btn {
+  margin: 0 auto;
+  margin-top: 50px;
+  display: block;
+}
+
+#burger, [for=burger] {
+  display: none;
+}
+
+@media screen and (max-width: 820px) {
+  header .container a .header_logo {
+    padding-left: 0px;
+    width: 125px;
+    height: 125px;
+  }
+  header .container label {
+    font-size: 40px;
+    display: block;
+    position: fixed;
+    width: 80px;
+    text-align: center;
+    right: 20px;
+    top: 30px;
+    color: black;
+    z-index: 2;
+  }
+  header .container label::before {
+    content: '≡';
+  }
+  header .container nav {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.85);
+    width: 35%;
+    height: 100%;
+  }
+  header .container nav ul {
+    margin-top: 100px;
+    flex-direction: column;
+  }
+  header .container nav ul li {
+    margin-left: 50px;
+    margin-top: 60px;
+  }
+  header .container nav ul li::after {
+    display: none;
+  }
+  header .container nav ul li a {
+    color: white;
+  }
+  header .container #burger:checked + label + nav {
+    display: block;
+  }
+  header .container #burger:checked + label::before {
+    content: 'x';
+    color: #fbd784;
+  }
+  .center {
+    margin-top: 50px;
+  }
+  .center_sandyq {
+    width: 700px;
+    height: 350px;
+    margin-left: 70px;
+  }
+  .center_title {
+    left: 480px;
+    top: 340px;
+    font-size: 50px;
+  }
+  .center_title::after {
+    width: 150px;
+  }
+  .salad {
+    margin-top: 100px;
+  }
+  .salad_title {
+    font-size: 35px;
+  }
+  .chai_chainek {
+    width: 700px;
+    margin-left: 75px;
+  }
+  .tiskebasar {
+    margin-top: 100px;
+    padding-bottom: 30px;
+  }
+  .tiskebasar_title {
+    font-size: 35px;
+  }
+  .torsyk_legen {
+    width: 450px;
+    margin-left: 190px;
+  }
+  .suiyk_tagamdar {
+    margin-top: 100px;
+    padding-bottom: 60px;
+  }
+  .suiyk_tagamdar_title {
+    font-size: 35px;
+  }
+  .kazan_oshak {
+    width: 450px;
+    margin-left: 180px;
+  }
+  .negizgi_tagamdar {
+    margin-top: 100px;
+    padding-bottom: 100px;
+  }
+  .negizgi_tagamdar_title {
+    font-size: 35px;
+  }
+  .kymyz_kymyran {
+    width: 450px;
+    margin-left: 190px;
+  }
+  .susindar {
+    margin-top: 90px;
+  }
+  .susindar_title {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  header .container a .header_logo {
+    width: 75px;
+    height: 75px;
+    margin-left: 10px;
+  }
+  header .container nav {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  header .container nav ul {
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  header .container nav ul li {
+    margin-left: 0;
+  }
+  .center {
+    margin-top: 80px;
+  }
+  .center_title {
+    top: 200px;
+    left: 140px;
+    font-size: 40px;
+  }
+  .center_title::after {
+    width: 120px;
+  }
+  .center_sandyq {
+    width: 400px;
+    height: 220px;
+    object-fit: cover;
+    margin-top: 100px;
+    margin-left: 0;
+    padding-left: 135px;
+  }
+  .salad {
+    margin-top: 80px;
+    padding-bottom: 60px;
+  }
+  .salad_title {
+    font-size: 25px;
+  }
+  .salad_table {
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  .salad .btn {
+    margin-top: 30px;
+    font-size: 11px;
+  }
+  .chai_chainek {
+    width: 400px;
+    margin-left: 0px;
+    padding-left: 15px;
+  }
+  .tiskebasar {
+    margin-top: 60px;
+    padding-bottom: 30px;
+  }
+  .tiskebasar_title {
+    font-size: 25px;
+  }
+  .tiskebasar_table {
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  .tiskebasar .btn {
+    margin-top: 30px;
+    font-size: 11px;
+  }
+  .torsyk_legen {
+    width: 250px;
+    margin-left: 85px;
+  }
+  .suiyk_tagamdar {
+    margin-top: 60px;
+    padding-bottom: 50px;
+  }
+  .suiyk_tagamdar_title {
+    font-size: 25px;
+  }
+  .suiyk_tagamdar_table {
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  .suiyk_tagamdar .btn {
+    margin-top: 30px;
+    font-size: 11px;
+  }
+  .kazan_oshak {
+    width: 300px;
+    margin-left: 60px;
+  }
+  .negizgi_tagamdar {
+    margin-top: 60px;
+    padding-bottom: 60px;
+  }
+  .negizgi_tagamdar_title {
+    font-size: 25px;
+  }
+  .negizgi_tagamdar_table {
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  .negizgi_tagamdar .btn {
+    margin-top: 30px;
+    font-size: 11px;
+  }
+  .kymyz_kymyran {
+    width: 250px;
+    margin-left: 85px;
+  }
+  .susindar {
+    margin-top: 60px;
+  }
+  .susindar_title {
+    font-size: 25px;
+  }
+  .susindar_table {
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  .susindar .btn {
+    margin-top: 30px;
+    font-size: 11px;
+  }
+}

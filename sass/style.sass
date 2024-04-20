@@ -1,0 +1,54 @@
+body
+    background: url('../img/main/main_background.jpg')
+
+header
+    min-height: 136px
+    // border: 1px solid red
+    .container
+        padding: 22px 0px 
+        display: flex
+        .header_burger-btn
+            position: relative
+            width: 40px
+            height: 40px
+            border: none
+            background-color: aqua
+            // display: none
+            span
+                position: absolute
+                width: 30px
+                height: 3px
+                background-color: #fff
+                left: 5px
+                &:nth-child(1)
+                    transform: translateY(-10px)
+                &:nth-child(3)
+                    transform: translateY(10px)
+
+
+        nav
+            ul
+                display: flex
+                list-style: none
+                li
+                    margin-top: 15px
+                    margin-left: 160px
+                    &::after
+                        content: ''
+                        display: block
+                        height: 2px
+                        width: 0%
+                        transition: 0.5s all
+                        background-color: white 
+                    &:hover
+                        &::after
+                            width: 100% 
+                    a
+                        font-size: 20px
+                        color: white
+                        text-decoration: none
+                        font-family: 'Gilroy-Bold'
+
+@media (max-width: 1050px)
+    .header_burger-btn
+        background-color: white

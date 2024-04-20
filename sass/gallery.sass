@@ -1,0 +1,278 @@
+body
+    background: #000000 url('../img/contacts/contacts_background.jpg') no-repeat center
+    background-size: cover
+header
+    min-height: 136px
+    // border: 1px solid red
+    .container
+        padding: 22px 0px 
+        display: flex
+        nav
+            ul
+                display: flex
+                list-style: none
+                li
+                    margin-top: 15px
+                    margin-left: 160px
+                    &::after
+                        content: ''
+                        display: block
+                        height: 2px
+                        width: 0%
+                        transition: 0.5s all
+                        background-color: white 
+                    &:hover
+                        &::after
+                            width: 100% 
+                    a
+                        font-size: 20px
+                        color: white
+                        text-decoration: none
+                        font-family: 'Gilroy-Bold'
+.main_link
+    margin-top: 60px
+    .container
+        padding: 0
+    &_reffer
+        padding: 0
+        font-family: 'Gilroy-ExtraBold'
+        font-size: 12px
+        line-height: 15px
+        letter-spacing: 5px
+        text-transform: uppercase
+        color: #FBD784
+        text-decoration: none
+        &:hover
+            color: #FBD784
+        img
+            margin-right: 14px
+.gallery
+    margin-top: 83px
+    min-height: 3426px
+    padding-bottom: 190px
+    .container
+        padding-right: 15px
+        padding-left: 15px
+        width: 100%
+        
+    &_title
+        font-size: 64px
+        font-family: 'CharterC-Bold'
+        color: #ffffff
+        padding: 0 0 0 3.5%
+        display: block
+        line-height: 90px
+    &_rows
+        margin-top: 75px
+        &_left
+            padding-left: 50px
+            padding-right: 50px
+            img
+                width: 100%
+                &:not(:first-child)
+                    margin-top: 100px
+        &_middle
+            padding-left: 50px
+            padding-right: 50px
+            img
+                width: 100%
+                &:not(:first-child)
+                    margin-top: 100px
+
+        &_right
+            padding-left: 50px
+            padding-right: 50px
+            img
+                width: 100%
+                &:not(:first-child)
+                    margin-top: 100px
+
+footer
+    min-height: 314px
+    padding-top: 90px
+    padding-bottom: 30px
+    .wrapper_footer
+        display: flex
+        &_left
+            display: flex
+            flex-direction: column
+            &_title
+                margin-top: 18px
+                font-size: 16px
+                line-height: 26px
+                color: #ffffff
+                font-family: 'Gilroy-Bold'
+        &_middle
+            display: flex
+            flex-direction: column
+            &_insta
+                font-family: 'Gilroy-Bold'
+                font-size: 20px
+                line-height: 26px
+                color: #fbd784
+                text-decoration: none
+            &_interior
+                margin-top: 20px
+                font-family: 'Gilroy-SemiBold'    
+                font-size: 15px
+                line-height: 26px
+                color: #ffffff
+                text-decoration: none
+            &_menu
+                margin-top: 15px
+                font-family: 'Gilroy-SemiBold'    
+                font-size: 15px
+                line-height: 26px
+                color: #ffffff
+                text-decoration: none
+        &_right        
+            display: flex
+            flex-direction: column
+            &_trip
+                font-family: 'Gilroy-Bold'
+                font-size: 20px
+                line-height: 26px
+                color: #fbd784
+                text-decoration: none
+                img
+                    margin-left: 10px
+            &_contacts
+                margin-top: 20px
+                line-height: 26px
+                font-size: 15px
+                text-decoration: none
+                color: #ffffff
+                font-family: 'Gilroy-SemiBold'        
+        &_down
+            margin-top: 55px
+            display: flex
+            &_privacy
+                font-family: 'Gilroy-SemiBold'
+                font-size: 15px
+                line-height: 26px
+                color: #ffffff
+                opacity: 0.5
+                margin-right: 12px
+            &_policy
+                font-family: 'Gilroy-SemiBold'
+                font-size: 15px
+                line-height: 26px
+                color: #ffffff
+
+#burger, [for=burger]
+    display: none
+
+@media screen and (max-width: 820px)
+    header
+        .container
+            label
+                font-size: 40px
+                display: block
+                position: fixed
+                width: 80px
+                text-align: center
+                right: 20px
+                top: 30px
+                color: white
+                z-index: 2
+                &::before
+                   content: '≡'
+            nav
+                display: none
+                position: fixed
+                top: 0
+                right: 0
+                background: rgba(0,0,0,0.85)
+                width: 35%
+                height: 100%
+                ul
+                    margin-top: 100px
+                    flex-direction: column
+                    li
+                        margin-left: 50px
+                        margin-top: 60px
+                        &::after
+                            display: none
+            #burger
+                &:checked + label + nav
+                    display: block
+                &:checked + label::before
+                    content: 'x'
+                    color: #fbd784
+            a
+                .header_logo
+                    padding-left: 30px
+                
+    .gallery
+        min-height: 720px
+        .container
+            .gallery_rows
+                &_left
+                    padding: 0 40px
+                &_middle
+                    padding: 0 40px
+                &_right
+                    padding: 0 40px
+
+@media screen and (max-width: 412px)
+
+    header
+        .container
+            nav
+                width: 100%
+                height: 100%
+                z-index: 1
+                ul
+                    justify-content: center
+                    align-items: center
+                    padding: 0
+                    li
+                        margin-left: 0
+            a
+                .header_logo
+                    width: 90px
+                    height: 59px
+                    padding: 0
+            label
+                top: 15px
+                right: 0px
+    .main_link
+        margin-top: 10px
+        .container
+            a
+                img
+                    padding-left: 15px
+
+    .gallery
+        .container
+            .gallery_rows
+                &_left
+                    padding: 0 14px
+                    margin-bottom: 48px
+                    img
+                        &:not(:first-child)
+                            margin-top: 48px
+                &_middle
+                    padding: 0 14px
+                    margin-bottom: 48px
+                    img
+                        &:not(:first-child)
+                            margin-top: 48px
+                &_right
+                    padding: 0 14px
+                    img
+                        &:not(:first-child)
+                            margin-top: 48px
+    footer
+        .wrapper_footer
+            &_middle
+                margin-top: 27px
+            &_right
+                margin-top: 27px
+            &_down
+                flex-direction: column-reverse
+                &_privacy
+                    font-size: 10px
+                &_policy
+                    font-size: 10px
+
